@@ -20,7 +20,7 @@
     *注意：此修改版 `wgp.py` 修复了原版进度条不更新的 Bug，并增强了 UI 组件的访问权限以支持汉化。*
 
 3.  **安装插件**:
-    将 `plugins` 文件夹下的所有内容复制到您的 Wan2GP 的 `plugins/` 目录中。
+    将 `plugins` 文件夹下的汉化插件复制到您的 Wan2GP 的 `plugins/` 目录中。
     建议同时覆盖 `wan2gp-plugin-manager` 里的 `plugin.py` 以修复插件管理界面可能为空白的问题。
     安装后的路径结构应如下所示：
     ```text

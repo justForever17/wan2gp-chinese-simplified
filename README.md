@@ -1,6 +1,6 @@
 # Wan2GP Chinese Localization Plugin (HanHua)
 
-这是一个为 **Wan2GP** (Wan-To-Generate-Pixel) 视频生成工具提供的中文汉化插件。
+这是一个为 **Wan2GP** 视频生成工具提供的中文汉化插件。
 
 由于 Wan2GP 的界面是基于 Gradio 动态生成的，单纯的插件无法覆盖所有文本，因此本仓库包含了一个**修改版的核心文件 (`wgp.py`)** 以及**汉化插件本体**。
 
@@ -21,7 +21,7 @@
 
 3.  **安装插件**:
     将 `plugins` 文件夹下的汉化插件复制到您的 Wan2GP 的 `plugins/` 目录中。
-    建议同时覆盖 `wan2gp-plugin-manager` 里的 `plugin.py` 以修复插件管理界面可能为空白的问题。
+    可选 - 同时覆盖 `wan2gp-plugin-manager` 里的 `plugin.py` 以修复插件管理界面可能为空白的问题。
     安装后的路径结构应如下所示：
     ```text
     Wan2GP/
